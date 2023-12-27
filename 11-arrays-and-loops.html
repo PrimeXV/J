@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <title>Arrays and Loops</title>
+</head>
+
+<body>
+
+  <script>
+
+
+    let myArray = [10, 20, 30];
+    console.log(myArray);
+
+    console.log(myArray[0]); //used to pick value in an array, usually start from zero.
+    myArray[0] = 'something else';
+    console.log(myArray);
+
+
+    myArray = [1, 'hello', true, { name: 'socks' }, [1, 2]];
+
+    console.log(typeof [1, 2]); //used to check typeof value in the array.
+    console.log(Array.isArray([1, 2])); //used to check if an array is an array.
+
+    console.log(myArray.length); //used to check the length of an array.
+
+
+    myArray.push(100);  //used to add value at the last end of the array.
+    console.log(myArray);
+
+    myArray.splice(0, 2); //used to remove a value from an array.
+    console.log(myArray);
+
+
+
+
+    
+    
+
+  </script>
+
+</body>
+
+</html>
